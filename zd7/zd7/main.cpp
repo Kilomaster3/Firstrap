@@ -7,10 +7,17 @@
 //
 
 #include <iostream>
+#include <cmath>
+#include "mylib.h"
+
+
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    //std::cout << task_1_4 (2,3) <<std::endl;
+    
+    
     return 0;
 }
+ 
 

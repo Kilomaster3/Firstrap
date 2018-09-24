@@ -8,7 +8,11 @@
 
 #include <iostream>
 #include "task_if.h"
-//void task_if_4 (int a){
+#include "functions.h"
+
+
+    
+
     
 
 
@@ -19,10 +23,10 @@
 
 int main(int argc, const char * argv[]) {
     
-    
-   // task_if_1(2);
-   //task_if_2 (5);
-   //task_if_3 (9);
-    std::cout << std::endl;
+// task_if_1(2);
+//task_if_2 (5);
+//task_if_3 (9);
+//task_if_6 (3,6);
+    std::cout << "" << std::endl;
     return 0;
 }

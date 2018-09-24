@@ -9,6 +9,7 @@
 #ifndef task_if_h
 #define task_if_h
 #include "predicates.h"
+#include "functions.h"
 void task_if_1 (int a){
     
     if (is_even(a)){
@@ -39,6 +40,24 @@ void task_if_3 (int a){
             std::cout << 10;
         }
     }
+    
+}
+int task_if_4 (int a , int b , int c){
+    int result = 0;
+    if (is_positive(a)){
+        ++result;
+    }
+    if (is_positive(b)){
+        ++result;
+    }
+    if (is_positive(c)){
+        ++result;
+    }
+    return result;
+}
+
+void task_if_6 (int a , int b){
+    std::cout << max(a,b);
     
 }
 

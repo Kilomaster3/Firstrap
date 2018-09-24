@@ -16,7 +16,11 @@ double task_1_4 (double x, double y ){
     
 }
 
-
+double task_1_5 (double x ){
+    double temp = std::pow(x,2)/ std::pow(std::sin(x),2) + std::pow(std::cos(x),2);
+    return temp;
+    
+}
 
 
 

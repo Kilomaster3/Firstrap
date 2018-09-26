@@ -14,9 +14,17 @@
 
 
 
+
+
+
+
+
 int main(int argc, const char * argv[]) {
     //std::cout << task_1_4 (2,3) <<std::endl;
     //std::cout << task_1_5(3) <<std::endl;
+    //std::cout << task_1_6 (2,4) << std::endl;
+    //f (2,10,0.2);
+    //f1(1,5);
     
     return 0;
 }

@@ -21,6 +21,36 @@ double task_1_5 (double x ){
     return temp;
     
 }
+double task_1_6 (int first , int last){
+    
+    double result = 0;
+    for(; first<last; ++first){
+        result = result + 1.0/ first;
+    }
+    return result;
+}
+
+void f (double first, double last, double step){
+    
+    for (; first<last; first= first+step){
+        
+        std::cout << first << " ";
+    }
+    
+    
+}
+
+void f1 (int a, int b){
+    
+    int counter = 0;
+    for (;a < b+1; ++a){
+        ++counter;
+        
+        for (int i =0; i<counter; ++i){
+            std::cout << a << " ";
+        }
+    }
+}
 
 
 

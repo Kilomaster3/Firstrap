@@ -53,8 +53,33 @@ int product (int first , int last){
     
 }
 
+double task_for_7(int n)
+{
+    double sum = 0;
+    double temp = -1;
+    for(double i = 0.1; i < n; i += 0.1)
+    {
+        temp = temp * -1;
+        sum = sum + i * temp;
+    }
+    return sum;
+}
 
+int task_for_15 (int value , int power ){
+    int temp = 1;
+    for (int i = 0; i<power; ++i ){
+        temp = temp * value;
+    }
+    return temp;
+}
 
+int factorial (int value){
+    int temp = 1;
+    for (int i = 2; i<= value; ++i ){
+        temp = temp * i;
+    }
+    return temp;
+}
 
 
 

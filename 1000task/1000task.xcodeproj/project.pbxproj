@@ -28,6 +28,8 @@
 		2C6C0B4021597AFC00692BED /* predicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = predicates.h; sourceTree = "<group>"; };
 		2C6C0B4221597CA800692BED /* task_if.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = task_if.h; sourceTree = "<group>"; };
 		2C6C0B432159850A00692BED /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		2CB9F41E215FFA66006B4CCB /* loops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loops.h; sourceTree = "<group>"; };
+		2CB9F41F216002B0006B4CCB /* task_for.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = task_for.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				2C6C0B3921597A8100692BED /* main.cpp */,
+				2CB9F41E215FFA66006B4CCB /* loops.h */,
 				2C6C0B432159850A00692BED /* functions.h */,
 				2C6C0B4221597CA800692BED /* task_if.h */,
+				2CB9F41F216002B0006B4CCB /* task_for.h */,
 				2C6C0B4021597AFC00692BED /* predicates.h */,
 			);
 			path = 1000task;

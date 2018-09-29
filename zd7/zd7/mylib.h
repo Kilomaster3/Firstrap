@@ -30,7 +30,7 @@ double task_1_6 (int first , int last){
     return result;
 }
 
-void f (double first, double last, double step){
+void print_numbers (double first, double last, double step){
     
     for (; first<last; first= first+step){
         
@@ -40,7 +40,7 @@ void f (double first, double last, double step){
     
 }
 
-void f1 (int a, int b){
+void task_for_40 (int a, int b){
     
     int counter = 0;
     for (;a < b+1; ++a){
@@ -50,6 +50,39 @@ void f1 (int a, int b){
             std::cout << a << " ";
         }
     }
+}
+
+
+int min (int a , int b){
+    if (a < b){
+        return a;
+    }
+    return b;
+}
+int max (int a , int b){
+    if (a > b){
+        return a;
+    }
+    return b;
+}
+int find_the_environment (int a , int b , int c ){
+    int min_value = min(min(a,b),c);
+    int max_value = max(max(a,b),c);
+    if (a != min_value && a != max_value ){
+        return a;
+    }
+    if (b != min_value && b != max_value ){
+        return b;
+    }
+    return c;
+}
+
+int task_14 (int value){
+    int result = 0;
+    for (int i = 1; i <= 2 * value - 1; i = i + 2){
+        result += i;
+    }
+    return result;
 }
 
 

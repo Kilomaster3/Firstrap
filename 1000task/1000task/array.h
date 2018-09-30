@@ -9,6 +9,8 @@
 #ifndef array_h
 #define array_h
 #include <cmath>
+using BinaryOperation = int (*) (int, int);
+using UnaryPredicate = bool (*) (int);
 void fill_array (int* array, int size ){
     for (int i= 0 ; i<size ; ++i){
         array[i] = i;
@@ -76,10 +78,28 @@ void fill_array_task_6 (int* array , int first , int last, int a, int b){
         temp = temp + array[first];
     }
 }
+void print_array_if_7 (int* array , int first , int last, UnaryPredicate p){
+    for (;first< last; ++first){
+        if (p(array [first])){
+            std::cout << array[first] << std::endl;
+        }
+    }
+}
 
-
-
-
+void print_array_if_8 (int* array , int first , int last, UnaryPredicate p){
+    for (;first>last; --first){
+        if (p(array [first])){
+            std::cout << array[first] << std::endl;
+        }
+    }
+}
+int accum(int* array , int first, int last, int result ,BinaryOperation operation){
+    
+    for (;first<last ;++first){
+        result = operation (result,array[first]);
+    }
+    return result;
+}
 
 
 

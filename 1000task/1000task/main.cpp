@@ -15,6 +15,11 @@
 
 
 
+
+
+
+
+
 int main(int argc, const char * argv[]) {
 //std::cout << accum (2,20) << std::endl;
 //std::cout << product (2,20) << std::endl;
@@ -31,21 +36,17 @@ int main(int argc, const char * argv[]) {
 //task_if_6 (3,6);
 //std::cout << "" << std::endl;
 //f(2,5);
-    /*
-    int array[10]{ 2,4,6,8,10,12,14,16,18,20};
-    fill_array(array,10);
-    for(int i = 0; i<10 ; ++i){
-        std::cout << array[i] << std::endl;
-    }
-*/
-    int a = 4;
-    int b = 5;
-    iter_swape (&a , &b);
-    int* ap = &a;
-    //change_var(&a);
-    std::cout << a  << std::endl;
-    std::cout << b << std::endl;
-    
-    
-    return 0;
+    int array [10]{2,4,6,8,9,10,15,22,19,16};
+//fill_array_power_2 (array, 0,10);
+//print_array(array, 0, 10);
+    //fill_array_task_4 (array, 0,10,2,6);
+    //print_array(array,0,10);
+    //fill_array_fibonache (array,0,10);
+    //print_array(array,0,10);
+    fill_array_task_6 (array, 0,10,4,8);
+    print_array(array,0,10);
 }
+
+
+    
+    

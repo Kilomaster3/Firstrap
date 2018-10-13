@@ -79,11 +79,4 @@ void print_even_numbers(int first , int last){
 
 }
 
-
-
-
-
-
-
-
 #endif /* loops_h */

@@ -61,11 +61,19 @@ void task_if_6 (int a , int b){
     
 }
 
+int task_if_13(int a , int b , int c){
+    return a+b+c - min3(a,b,c);
+    
+}
 
-
-
-
-
-
+int task_if_13_2(int a , int b , int c){
+    if (a<b && a<c ){
+        return b+c;
+    }
+    if (b<a && b<c){
+        return a+c;
+}
+        return a+b;
+    }
 
 #endif /* task_if_h */

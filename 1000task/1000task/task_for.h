@@ -81,10 +81,4 @@ int factorial (int value){
     return temp;
 }
 
-
-
-
-
-
-
 #endif /* task_for_h */

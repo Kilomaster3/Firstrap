@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C6C0B3A21597A8100692BED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C0B3921597A8100692BED /* main.cpp */; };
+		2C310CC82172928F003B65F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C310CC72172928F003B65F3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2C6C0B3421597A8100692BED /* CopyFiles */ = {
+		2C310CC22172928F003B65F3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,20 +23,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C50B24B216A90DE00F220E0 /* arrays_and_poenters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrays_and_poenters.h; sourceTree = "<group>"; };
-		2C6C0B3621597A8100692BED /* 1000task */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 1000task; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C6C0B3921597A8100692BED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2C6C0B4021597AFC00692BED /* predicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = predicates.h; sourceTree = "<group>"; };
-		2C6C0B4221597CA800692BED /* task_if.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = task_if.h; sourceTree = "<group>"; };
-		2C6C0B432159850A00692BED /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
-		2CB9F41E215FFA66006B4CCB /* loops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loops.h; sourceTree = "<group>"; };
-		2CB9F41F216002B0006B4CCB /* task_for.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = task_for.h; sourceTree = "<group>"; };
-		2CB9F42021602C5B006B4CCB /* array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
-		2CB9F42121614B54006B4CCB /* operation .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "operation .h"; sourceTree = "<group>"; };
+		2C310CC42172928F003B65F3 /* BGUIR_LABS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BGUIR_LABS; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C310CC72172928F003B65F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2C310CCE217292CB003B65F3 /* algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = algorithms.h; sourceTree = "<group>"; };
+		2C310CCF217292F9003B65F3 /* tasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tasks.h; sourceTree = "<group>"; };
+		2C310CD021729440003B65F3 /* test_algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_algorithms.h; sourceTree = "<group>"; };
+		2C310CD121729A82003B65F3 /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C6C0B3321597A8100692BED /* Frameworks */ = {
+		2C310CC12172928F003B65F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,102 +42,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C6C0B2D21597A8100692BED = {
+		2C310CBB2172928F003B65F3 = {
 			isa = PBXGroup;
 			children = (
-				2C6C0B3821597A8100692BED /* 1000task */,
-				2C6C0B3721597A8100692BED /* Products */,
+				2C310CC62172928F003B65F3 /* BGUIR_LABS */,
+				2C310CC52172928F003B65F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2C6C0B3721597A8100692BED /* Products */ = {
+		2C310CC52172928F003B65F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C6C0B3621597A8100692BED /* 1000task */,
+				2C310CC42172928F003B65F3 /* BGUIR_LABS */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C6C0B3821597A8100692BED /* 1000task */ = {
+		2C310CC62172928F003B65F3 /* BGUIR_LABS */ = {
 			isa = PBXGroup;
 			children = (
-				2C6C0B3921597A8100692BED /* main.cpp */,
-				2C50B24B216A90DE00F220E0 /* arrays_and_poenters.h */,
-				2CB9F42021602C5B006B4CCB /* array.h */,
-				2CB9F42121614B54006B4CCB /* operation .h */,
-				2CB9F41E215FFA66006B4CCB /* loops.h */,
-				2C6C0B432159850A00692BED /* functions.h */,
-				2C6C0B4221597CA800692BED /* task_if.h */,
-				2CB9F41F216002B0006B4CCB /* task_for.h */,
-				2C6C0B4021597AFC00692BED /* predicates.h */,
+				2C310CC72172928F003B65F3 /* main.cpp */,
+				2C310CD121729A82003B65F3 /* functions.h */,
+				2C310CD021729440003B65F3 /* test_algorithms.h */,
+				2C310CCF217292F9003B65F3 /* tasks.h */,
+				2C310CCE217292CB003B65F3 /* algorithms.h */,
 			);
-			path = 1000task;
+			path = BGUIR_LABS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C6C0B3521597A8100692BED /* 1000task */ = {
+		2C310CC32172928F003B65F3 /* BGUIR_LABS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C6C0B3D21597A8100692BED /* Build configuration list for PBXNativeTarget "1000task" */;
+			buildConfigurationList = 2C310CCB2172928F003B65F3 /* Build configuration list for PBXNativeTarget "BGUIR_LABS" */;
 			buildPhases = (
-				2C6C0B3221597A8100692BED /* Sources */,
-				2C6C0B3321597A8100692BED /* Frameworks */,
-				2C6C0B3421597A8100692BED /* CopyFiles */,
+				2C310CC02172928F003B65F3 /* Sources */,
+				2C310CC12172928F003B65F3 /* Frameworks */,
+				2C310CC22172928F003B65F3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 1000task;
-			productName = 1000task;
-			productReference = 2C6C0B3621597A8100692BED /* 1000task */;
+			name = BGUIR_LABS;
+			productName = BGUIR_LABS;
+			productReference = 2C310CC42172928F003B65F3 /* BGUIR_LABS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2C6C0B2E21597A8100692BED /* Project object */ = {
+		2C310CBC2172928F003B65F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = mb;
 				TargetAttributes = {
-					2C6C0B3521597A8100692BED = {
+					2C310CC32172928F003B65F3 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 2C6C0B3121597A8100692BED /* Build configuration list for PBXProject "1000task" */;
+			buildConfigurationList = 2C310CBF2172928F003B65F3 /* Build configuration list for PBXProject "BGUIR_LABS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2C6C0B2D21597A8100692BED;
-			productRefGroup = 2C6C0B3721597A8100692BED /* Products */;
+			mainGroup = 2C310CBB2172928F003B65F3;
+			productRefGroup = 2C310CC52172928F003B65F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C6C0B3521597A8100692BED /* 1000task */,
+				2C310CC32172928F003B65F3 /* BGUIR_LABS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C6C0B3221597A8100692BED /* Sources */ = {
+		2C310CC02172928F003B65F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6C0B3A21597A8100692BED /* main.cpp in Sources */,
+				2C310CC82172928F003B65F3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2C6C0B3B21597A8100692BED /* Debug */ = {
+		2C310CC92172928F003B65F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +184,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -200,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		2C6C0B3C21597A8100692BED /* Release */ = {
+		2C310CCA2172928F003B65F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,14 +237,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		2C6C0B3E21597A8100692BED /* Debug */ = {
+		2C310CCC2172928F003B65F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		2C6C0B3F21597A8100692BED /* Release */ = {
+		2C310CCD2172928F003B65F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -271,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C6C0B3121597A8100692BED /* Build configuration list for PBXProject "1000task" */ = {
+		2C310CBF2172928F003B65F3 /* Build configuration list for PBXProject "BGUIR_LABS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C6C0B3B21597A8100692BED /* Debug */,
-				2C6C0B3C21597A8100692BED /* Release */,
+				2C310CC92172928F003B65F3 /* Debug */,
+				2C310CCA2172928F003B65F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C6C0B3D21597A8100692BED /* Build configuration list for PBXNativeTarget "1000task" */ = {
+		2C310CCB2172928F003B65F3 /* Build configuration list for PBXNativeTarget "BGUIR_LABS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C6C0B3E21597A8100692BED /* Debug */,
-				2C6C0B3F21597A8100692BED /* Release */,
+				2C310CCC2172928F003B65F3 /* Debug */,
+				2C310CCD2172928F003B65F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2C6C0B2E21597A8100692BED /* Project object */;
+	rootObject = 2C310CBC2172928F003B65F3 /* Project object */;
 }

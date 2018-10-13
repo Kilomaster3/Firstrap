@@ -29,6 +29,4 @@ int max3 (int a, int b, int c){
 }
 
 
-
-
 #endif /* functions_h */

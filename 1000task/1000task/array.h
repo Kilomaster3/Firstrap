@@ -9,8 +9,8 @@
 #ifndef array_h
 #define array_h
 #include <cmath>
-using BinaryOperation = int (*) (int, int);
-using UnaryPredicate = bool (*) (int);
+#include "operation .h"
+#include "predicates.h"
 void fill_array (int* array, int size ){
     for (int i= 0 ; i<size ; ++i){
         array[i] = i;
@@ -101,8 +101,19 @@ int accum(int* array , int first, int last, int result ,BinaryOperation operatio
     return result;
 }
 
+int average(int* array , int first, int last ){
+    int temp = accum (array, first, last, 0, sum);
+    return temp / (last - first);
+ 
+}
 
-
-
+bool all_of(int* array , int first , int last,UnaryPredicate p){
+    for(;first!=last;++first ){
+        if (!p(array[first])){
+            return false;
+        }
+    }
+    return true;
+}
 
 #endif /* array_h */

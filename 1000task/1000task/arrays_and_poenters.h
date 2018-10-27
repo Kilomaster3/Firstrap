@@ -57,7 +57,25 @@ int print_task_18 (int* first , int* last, int* k){
     return 0;
     
 }
-
+int rev=0;
+void sorting_bubble(int* array, int size){
+    bool is_sort;
+    for (int i=0; i<size; ++i){
+        is_sort = true;
+        for (int j=0; j<size-i-1; ++j){
+            if(array[j]<array[j+1]){
+                int temp = array[j];
+            array[j]=array[j+1];
+            array[j+1]=temp;
+                is_sort = false;
+}
+            ++rev;
+}
+        if(is_sort){
+            return;
+        }
+}
+}
 
 #ifndef arrays_and_poenters_h
 #define arrays_and_poenters_h

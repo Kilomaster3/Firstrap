@@ -49,7 +49,7 @@ int main(int argc, const char * argv[]) {
     //print_array(array,0,10);
     //print_array_if_7 (array ,0,10, is_positive);
     //print_array_if_8 (array ,10,-1, is_positive);
-     //int result = accum(array ,0 ,10,1000, sum);
+    //int result = accum(array ,0 ,10,1000, sum);
    //std::cout << result << std::endl;
     //fill_arefmetic(array,array+10,2,5);
     //print_array(array, 0, 10);
@@ -64,7 +64,10 @@ int main(int argc, const char * argv[]) {
     //print_task_8(array, array+10 ,is_positive);
     //std::cout << print_task_18(array, array+10 , array+4)<<std::endl;
    // std::cout << all_of(array,0,9,is_positive) <<std::endl;
-
+   // print_array_if_10(array,0,10);
+    //print_array(array, 0, 10);
+    //sorting_bubble(array,10);
+    //std::cout << " " << rev << std::endl;
 }
 
 

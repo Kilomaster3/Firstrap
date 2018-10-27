@@ -115,5 +115,22 @@ bool all_of(int* array , int first , int last,UnaryPredicate p){
     }
     return true;
 }
+void  print_array_if_10(int* array, int i, int n){
+    for (i=0; i<n; ++i){
+        
+    }
+    for (int i=0; i<n; ++i){
+        if (array[i]%2 == 0){
+            
+        }
+}
+    
+    for (int i=n-1; i>=0; --i){
+        if (array[i]%2 != 0){
+            
+        }
+    }
+    
+}
 
 #endif /* array_h */
